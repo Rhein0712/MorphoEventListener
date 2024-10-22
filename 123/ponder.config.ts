@@ -3,6 +3,8 @@ import { http, parseAbiItem } from "viem";
 
 import { MorphoAbi } from "./abis/MorphoAbi";
 
+import schema from './ponder.schema'; // Import schema
+
 export default createConfig({
   networks: {
     mainnet: {
